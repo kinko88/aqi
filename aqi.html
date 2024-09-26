@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        /* Đặt toàn bộ trang căn giữa */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Chiều cao trang bằng 100% màn hình */
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Kiểu dáng cho phần chứa widget */
+        .widget-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+        
+	    width: 100%; /* Đặt chiều rộng 90% để có không gian bên cạnh */
+            max-width: 100%; /* Chiều rộng tối đa */
+            margin: auto; /* Giữa trang */
+        }
+    </style>
+</head>
+<body>
+    <!-- Thêm div chứa để căn giữa widget -->
+    <div class="widget-container">
+        <h1></h1>
+        <!-- Phần tử chứa widget -->
+        <div name="airvisual_widget" key="66f289ae21ad43f620b3f1c8"></div>
+    </div>
+
+    <!-- Thêm đoạn script từ IQAir để hiển thị widget -->
+    <script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
+</body>
+</html>
